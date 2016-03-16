@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour {
 		float distance = Vector3.Distance (player.transform.position, transform.position);
 		print (distance);
 
-		if (distance < 10) {
+		if (distance < 8.4) {
 			print("Bang");
 
 			if(timer > 2){
