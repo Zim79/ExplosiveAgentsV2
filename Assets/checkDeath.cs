@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class checkDeath : MonoBehaviour {
+	public gameController Gamecontroller;
 
 	// Use this for initialization
 	void Start () {
@@ -12,6 +13,7 @@ public class checkDeath : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other) {
 		if (other.tag == "Death") {
 			print("Death");
+			Gamecontroller.respawn();
 			Destroy (gameObject);
 		}
 	}

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
-
+	public float enemyShootSpeed;
 	public GameObject player;
 	public GameObject exitPoint,bullet;
 	float timer;
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour {
 			GameObject temp = Instantiate(bullet) as GameObject;
 			temp.transform.position = exitPoint.transform.position;
 			
-				temp.GetComponent < Rigidbody2D > ().velocity = Vector2.left * 50;
+				temp.GetComponent < Rigidbody2D > ().velocity = Vector2.left * enemyShootSpeed;
 
 			timer = 0;
 			
