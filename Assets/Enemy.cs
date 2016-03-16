@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour {
 		if (distance < 8.4) {
 			print("Bang");
 
-			if(timer > 2){
+			if(timer > 0.2){
 			
 
 			GameObject temp = Instantiate(bullet) as GameObject;
