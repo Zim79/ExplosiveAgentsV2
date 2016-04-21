@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: f063dd282ed48804f9e5c73e16392b8b
+timeCreated: 1461173442
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "Explosive Agents (G\xE5 animation 1)_0"
+    21300002: "Explosive Agents (G\xE5 animation 1)_1"
+    21300004: "Explosive Agents (G\xE5 animation 1)_2"
+    21300006: "Explosive Agents (G\xE5 animation 1)_3"
+    21300008: "Explosive Agents (G\xE5 animation 1)_4"
+    21300010: "Explosive Agents (G\xE5 animation 1)_5"
+    21300012: "Explosive Agents (G\xE5 animation 1)_6"
+    21300014: "Explosive Agents (G\xE5 animation 1)_7"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1000
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "Explosive Agents (G\xE5 animation 1)_0"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 30
+        width: 452
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_1"
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 62
+        width: 452
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_2"
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 62
+        width: 452
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_3"
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 62
+        width: 452
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_4"
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 30
+        width: 452
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_5"
+      rect:
+        serializedVersion: 2
+        x: 5374
+        y: 30
+        width: 452
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_6"
+      rect:
+        serializedVersion: 2
+        x: 6398
+        y: 30
+        width: 452
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "Explosive Agents (G\xE5 animation 1)_7"
+      rect:
+        serializedVersion: 2
+        x: 7422
+        y: 30
+        width: 452
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SlowMotionPower : MonoBehaviour {
-	public float SlowMotionActive = 0.5f;
+	public float SlowMotionActive = 0.25f;
 
 
 	// Use this for initialization

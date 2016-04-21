@@ -8,13 +8,37 @@ public class Enemy : MonoBehaviour {
 	public GameObject exitPoint,bullet;
 	float timer;
 
+	bool isBurstFireOn;
+
 	// Use this for initialization
 	void Start () {
 
 	}
-	
+	//Fires three times 
+	IEnumerator burstFire() {
+
+
+		for (int i=0; i<3; i++) {
+			GameObject temp = Instantiate (bullet) as GameObject;
+			temp.transform.position = exitPoint.transform.position;
+		
+			temp.GetComponent < Rigidbody2D > ().velocity = Vector2.left * enemyShootSpeed;
+			//Destroys projectile
+			Destroy(temp,3);
+			//time between projectile spawn
+			yield return new WaitForSeconds(0.2f);
+
+		}
+
+		timer = 0;
+		isBurstFireOn = false;
+
+	}
+
+
 	// Update is called once per frame
 	void Update () {
+
 
 		timer += Time.deltaTime;
 
@@ -24,17 +48,24 @@ public class Enemy : MonoBehaviour {
 		if (distance < 8.4) {
 			print("Bang");
 
-			if(timer > 0.2){
+			if(timer > 0.9){
 			
+			if(isBurstFireOn == false){
 
-			GameObject temp = Instantiate(bullet) as GameObject;
-			temp.transform.position = exitPoint.transform.position;
+				StartCoroutine(burstFire ());
+
+					isBurstFireOn = true;
+				}
+
+					
 			
-				temp.GetComponent < Rigidbody2D > ().velocity = Vector2.left * enemyShootSpeed;
-
-			timer = 0;
 			
 			}
+		
+
+
+
+
 		}
 
 
