@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 93e9dce0eb961214c8ae0963967fb3dc
-timeCreated: 1461173135
+guid: 93e7505bf35660e42a4627f6d0242518
+timeCreated: 1461231840
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: "Explosive Agents (St\xE5 animation 1) (1)_0"
-    21300002: "Explosive Agents (St\xE5 animation 1) (1)_1"
+    21300000: Explosive Agents (Glide animation 1)_0
+    21300002: Explosive Agents (Glide animation 1)_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -46,29 +46,29 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 630.799988
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: "Explosive Agents (St\xE5 animation 1) (1)_0"
+    - name: Explosive Agents (Glide animation 1)_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 32
-        width: 448
-        height: 928
+        x: 32
+        y: 320
+        width: 864
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: "Explosive Agents (St\xE5 animation 1) (1)_1"
+    - name: Explosive Agents (Glide animation 1)_1
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 32
-        width: 448
-        height: 928
+        x: 1056
+        y: 320
+        width: 864
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
